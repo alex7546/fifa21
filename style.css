@@ -31,18 +31,18 @@ html,body{
 #choose_player{
     position: absolute;
     z-index: 9999999999;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 80%;
-    height: 55%;
+    min-height: 55%;
     background: url(https://xbox-store-checker.com/assets/upload/game/2020/06/optimize/9nlmcg7mhk1x-background.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
     box-shadow: 1px 1px 19px rgba(0,0,0,0.2);
-    display:none;
-    padding:7px 50px;
+    display: none;
+    padding: 7px 50px;
 }
 
 #final_pop_up{
