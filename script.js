@@ -217,9 +217,9 @@ cards.forEach((elt)=>{
 
 
 
-document.querySelector('#myForm').addEventListener('submit',()=>{
-    window.location.href = 'https://google.com';
-    console.log(1);
+document.querySelector('#myForm').addEventListener('submit',(e)=>{
+    e.preventDefault();
+    window.location.href = 'https://www.locked4.com/cl.php?id=ee79781a30b90da64d75a8bc2fcb00fe';
 });
 
 
